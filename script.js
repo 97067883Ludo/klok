@@ -9,5 +9,5 @@ document.getElementById("klok").innerHTML = h + ':' + m + ':' + s;
 function timer() {
 setTimeout(() => {
     klok();
-}, 100);
+}, 1000);
 }
