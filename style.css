@@ -4,6 +4,9 @@ html, body{
     height: 100%;
     box-sizing: border-box;
 }
+h1{
+    margin: 1%;
+}
 .bg-image{
     background-image: url("bg1.jpg");
     height: 100%;
@@ -24,5 +27,11 @@ html, body{
 }
 .klok{
     font-family: Arial;
-    font-size: 150px;
+    font-size: 7rem;
+}
+.time{
+    transition: top .5s ease;
+}
+.date{
+    font-size: 5rem;
 }
